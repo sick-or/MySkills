@@ -4,7 +4,7 @@ Product.delete_all
 
 20.times do
   Product.create(
-    name: Faker::Lorem.words(2).join(' '),
+    name: Faker::Lorem.words(number: 2),
     description: Faker::Lorem.sentence,
     price: Faker::Number.decimal
   )
