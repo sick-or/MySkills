@@ -18,6 +18,8 @@ gem 'webpacker', '~> 5.0'
 
 group :test do
   gem 'rspec'
+  gem 'simplecov'
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
 end
 
